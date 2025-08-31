@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - [Ton Nom]</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <nav class="nav">
+    <a href="#" class="brand">[Ton Nom]</a>
+    <button class="burger" aria-label="Ouvrir le menu">☰</button>
+    <ul class="menu">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#photos">Photographie</a></li>
+      <li><a href="#experience">Expériences</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-img">
+      <img src="assets/header-photo.jpg" alt="Portrait" />
+    </div>
+    <div class="hero-text">
+      <h1 class="handwrite">Hello, moi c'est [Ton Nom] ✨</h1>
+      <p class="subtitle">Étudiante en Communication & Marketing — créative, curieuse, toujours prête à apprendre.</p>
+      <a class="cta" href="#projects">Voir mes projets</a>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title handwrite">À propos</h2>
+      <p id="typewriter" class="typewriter" data-text="Bienvenue sur mon univers ! J’aime créer des contenus colorés et authentiques, mêlant stratégie, design et émotion. Ici, tu trouveras mes compétences, mes expériences, mes projets, et un petit coin photo où je partage mes clichés préférés."></p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title handwrite">Compétences</h2>
+      <div class="cards">
+        <div class="card"><span>📝</span><h3>Pack Office</h3><p>Word • Excel • PowerPoint</p></div>
+        <div class="card"><span>📱</span><h3>Réseaux sociaux</h3><p>Création & animation</p></div>
+        <div class="card"><span>🎨</span><h3>Canva</h3><p>Créa visuelle & gabarits</p></div>
+        <div class="card"><span>🧠</span><h3>Genially</h3><p>Contenus interactifs</p></div>
+        <div class="card"><span>💻</span><h3>Windows</h3><p>Maîtrise PC</p></div>
+        <div class="card"><span>🍏</span><h3>macOS</h3><p>Maîtrise Mac</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title handwrite">Projets</h2>
+      <div class="cards projects">
+        <div class="card project">
+          <div class="project-thumb skeleton"></div>
+          <h3>Projet à venir</h3>
+          <p>Ajoute ici une description courte. ✨</p>
+        </div>
+        <div class="card project">
+          <div class="project-thumb skeleton"></div>
+          <h3>Projet à venir</h3>
+          <p>Ajoute ici une description courte. ✨</p>
+        </div>
+        <div class="card project">
+          <div class="project-thumb skeleton"></div>
+          <h3>Projet à venir</h3>
+          <p>Ajoute ici une description courte. ✨</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="photos" class="section">
+    <div class="container">
+      <h2 class="section-title handwrite">Photographie</h2>
+      <div class="grid photos">
+        <div class="grid-item"><div class="ph skeleton"></div></div>
+        <div class="grid-item tall"><div class="ph skeleton"></div></div>
+        <div class="grid-item wide"><div class="ph skeleton"></div></div>
+        <div class="grid-item"><div class="ph skeleton"></div></div>
+        <div class="grid-item"><div class="ph skeleton"></div></div>
+        <div class="grid-item wide"><div class="ph skeleton"></div></div>
+      </div>
+      <p class="hint">💡 Remplace les blocs par tes photos dans <code>/assets/</code> et change les <code>&lt;div class='ph' style='background-image: url(...)'&gt;</code>.</p>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title handwrite">Expériences</h2>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Déc. 2024 • Mars–Avr. 2025 — <strong>Maxi Zoo</strong> — Stagiaire</h3>
+            <p>Conseillère de vente — Réorganisation de différents rayons.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Déc. 2023 • Janv. 2024 • Mai–Juin 2024 — <strong>Crédit Agricole Val de France</strong> — Stagiaire</h3>
+            <p>Conseillère commerciale — Étude concurrentielle, enquête de satisfaction.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Nov.–Déc. 2022 • Mars–Avr. 2023 — <strong>Garnier Thiebaut</strong> — Stagiaire</h3>
+            <p>Conseillère de vente — Action de fidélisation & réalisation.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>Mars–Juin 2021 • Janv.–Juin 2022 — <strong>Cora</strong> — Stagiaire</h3>
+            <p>Conseillère de vente — Mise en rayon, questionnaire de satisfaction.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title handwrite">Contact</h2>
+      <form class="contact">
+        <input type="text" placeholder="Nom" required>
+        <input type="email" placeholder="Email" required>
+        <textarea rows="5" placeholder="Votre message" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 [Ton Nom]. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
